@@ -1,0 +1,40 @@
+.container{
+  background-color: rgb(82, 28, 124);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.etablissement {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 10px;
+}
+
+.stagiaire {
+  display: flex;
+  padding: 5px;
+}
+
+.stagiaire img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.infostag {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.infostag h2 {
+  margin-bottom: 0px;
+  font-size: 15px;
+}
+
+.infostag h4 {
+  margin-top: 0px;
+  font-size: 12px;
+}
