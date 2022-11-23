@@ -1,0 +1,5 @@
+const AUGMENTER = 'AUG'
+const DIMINUER = 'DIM'
+const INITIALIER = 'INI'
+
+export {AUGMENTER, DIMINUER, INITIALIER }
